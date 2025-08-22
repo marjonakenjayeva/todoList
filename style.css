@@ -1,0 +1,80 @@
+.title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btnbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.textinput{
+ width: 580px;
+ padding: 10px;
+ border: 2px solid #6C63FF;
+ border-radius: 5px;
+}
+
+.textinput::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    color: #C3C1E5; 
+}
+
+.Send{
+  width: 70px;
+  padding: 10px;
+  background-color: #6C63FF;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.Clear{
+    width: 70px;
+    padding: 10px;
+    background-color: #6C63FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+  }
+
+
+
+.box{
+    width: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+     margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    box-shadow: #6C63FF 0px 1px;
+}
+
+.cad1{
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+    width: 26px;
+    height: 26px;
+}
+label{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.card2{
+    display: flex;
+    align-items: center ;
+    gap: 5px;
+}
